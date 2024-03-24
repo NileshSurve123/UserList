@@ -91,6 +91,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+            <Link href={'/User_list'} >Click here to see User_list</Link>
     </main>
   );
 }
