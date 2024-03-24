@@ -5,6 +5,7 @@ import Link from "next/link";
 
 
 
+
 const getData = async () =>{
     const response = await fetch('https://602e7c2c4410730017c50b9d.mockapi.io/users');
     if(!response.ok){
