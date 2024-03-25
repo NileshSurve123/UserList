@@ -12,7 +12,7 @@ const getData = async () =>{
         throw new Error("failed to fetch API data");
 
     }
-    return response.json();
+    return response.json(response);
 }
 
 
