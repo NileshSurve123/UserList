@@ -1,6 +1,6 @@
 export async function generateStaticParams() {
   const res = await fetch("https://602e7c2c4410730017c50b9d.mockapi.io/users");
-  const data = await res.json(res);
+  const data = await res.json();
 
   return data.map((user) =>({
     id: user.id.toString(),
@@ -9,7 +9,7 @@ export async function generateStaticParams() {
 
 async function getUser(id){
   const res = await fetch(`https://602e7c2c4410730017c50b9d.mockapi.io/users/${id}`);
-  const data = await res.json(res);
+  const data = await res.json();
   return data;
 }
 
