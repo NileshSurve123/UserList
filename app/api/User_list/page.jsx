@@ -34,7 +34,7 @@ const Login = async () => {
                   
                   
                     
-                     Click Here to view detils of user ==> <Link href={`/api/User_list/${item.id}`} key={item.id}>{item.id}</Link>
+                     Click Here to view detils of user == <Link href={`/api/User_list/${item.id}`} key={item.id}>{item.id}</Link>
                    <div>Username:- {item.profile.username}</div>
                      
                 <h4>Email:- {item.profile.email}</h4>   
