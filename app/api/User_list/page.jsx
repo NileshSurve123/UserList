@@ -31,10 +31,11 @@ const Login = async () => {
                     <img
                        src={item.avatar} width={120} height={120}
                        />
+                    <br></br>
                   
                   
                     
-                     Click Here to view detils of user == <Link href={`/api/User_list/${item.id}`} key={item.id}>{item.id}</Link>
+                     Click Here the ID number to view details of user == <Link href={`/api/User_list/${item.id}`} key={item.id}>{item.id}</Link>
                    <div>Username:- {item.profile.username}</div>
                      
                 <h4>Email:- {item.profile.email}</h4>   
