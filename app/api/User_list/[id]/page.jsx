@@ -2,7 +2,7 @@ export async function generateStaticParams() {
   const res = await fetch("https://602e7c2c4410730017c50b9d.mockapi.io/users");
   const data = await res.json();
 
-  return data.slice(0,21).map((user) =>({
+  return data.slice(0,25).map((user) =>({
     id: user.id.toString(),
   }));
 };
