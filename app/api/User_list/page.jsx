@@ -24,7 +24,7 @@ const Login = async () => {
             <h2>User list</h2>
             <br></br>
           {
-            apiData.slice(0,21).map((item)=>(
+            apiData.slice(0,25).map((item)=>(
                 <>
 
                   
