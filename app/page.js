@@ -92,7 +92,7 @@ export default function Home() {
         </a>
       </div>
 
-      <Link href={'/User_list'} >Click here to see User_list</Link>
+      <Link href={'/api/User_list'} >Click here to see User_list</Link>
     </main>
   );
 }
