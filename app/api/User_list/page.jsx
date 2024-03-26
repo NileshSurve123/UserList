@@ -12,7 +12,7 @@ const getData = async () =>{
         throw new Error("failed to fetch API data");
 
     }
-    return response.json(response);
+    return response.json();
 }
 
 
@@ -24,7 +24,7 @@ const Login = async () => {
             <h2>User list</h2>
             <br></br>
           {
-            apiData.map((item)=>(
+            apiData.slice(0,21).map((item)=>(
                 <>
 
                   
