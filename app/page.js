@@ -28,7 +28,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+        <Link className={styles.text} href={'api/User_list'} >Click here to see User_list</Link>
       <div className={styles.center}>
         <Image
           className={styles.logo}
@@ -92,7 +92,7 @@ export default function Home() {
         </a>
       </div>
 
-      <Link href={'/api/User_list'} >Click here to see User_list</Link>
+      
     </main>
   );
 }
