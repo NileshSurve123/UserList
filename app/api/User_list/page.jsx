@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Link from "next/link";
-import "./loading.jsx";
+import "./api/User_list/loading.jsx";
 
 
 
